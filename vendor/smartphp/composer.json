@@ -1,0 +1,24 @@
+{
+    "name": "SmartPHP/framework",
+    "description": "The SmartPHP Framework.",
+    "keywords": ["framework", "SmartPHP"],
+    "license": "MIT",
+    "homepage": "http://SmartPHP.com",
+    "support": {
+        "issues": "https://github.com/smartphp/framework/issues",
+        "source": "https://github.com/smartphp/framework"
+    },
+    "authors": [
+        {
+            "name": "Haizhou",
+            "email": "sky_whz@hotmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "SmartPHP\\": "src/SmartPHP/"
+        }
+    }
+
+}
